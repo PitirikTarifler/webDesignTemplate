@@ -42,6 +42,7 @@ section{
     color: var(--red);
     border-radius: .5rem;
     padding: .2rem 1rem;
+    font-language-override: unset;
 }
 
 .btn{
@@ -480,6 +481,60 @@ header .search-bar-container label:hover{
 .footer .credit span{
    color: var(--red); 
 }
+.kitchen{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    position: relative;
+    z-index: 0;
+}
+
+.kitchen-content{
+    margin-top:10px;
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    border : 2px solid #333;
+    width: 600px;
+    height: 170px;
+}
+.kitchen-content h1{
+    padding-top: 5px;
+    padding-left:15px;
+    font-size:20px;
+}
+.kitchen .add-drop-panel{
+    margin-top:10px;
+    display: flex;
+}
+.kitchen .add-drop-buttons{
+    font-size: 15px;
+    margin-left: 5px;
+    color: white;
+    width:20px;
+    background-color: var(--red);
+    height: 20px;
+    cursor: pointer;
+}
+
+.ingridient-recipes{
+    margin-top:10px;
+    margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    width: 600px;
+    height: 170px;
+}
+.ingridient-recipes h1{
+    padding-top:10px;
+    font-size:25px;
+
+}
+
+
+
 
 
 
