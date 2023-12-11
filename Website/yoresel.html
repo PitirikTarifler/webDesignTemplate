@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pıtırık Trifler</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+
+        .container{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1px;
+        }
+
+        .kutu, .altDiv{
+            background-color: rgb(226, 223, 223);
+            border-radius: 25px;
+            border: 4px solid var(--red);
+            width: 250px;
+            height: 250px;
+            margin: 50px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            font-weight: bold;
+            font-size: 2em;
+            justify-content: center;
+
+        }
+
+        .kutu:nth-child(1){
+            background-image: url(images/muhlama.jpeg);
+            background-size: cover;
+            color: white;
+        }
+
+        .kutu:nth-child(2){
+            background-image: url(images/yapraksarma.jpeg);
+            background-size: cover;
+            color: white;
+        }
+
+        .kutu:nth-child(3){
+            background-image: url(images/piyaz.jpeg);
+            background-size: cover;
+            color: white;
+        }
+
+        .altDiv:nth-child(1){
+            background-image: url(images/kebab.jpg);
+            background-size: cover;
+            color: white;
+        }
+
+        .altDiv:nth-child(2){
+            background-image: url(images/pide.jpeg);
+            background-size: cover;
+            color: white;
+        }
+        
+
+        
+
+    </style>
+
+
+   
+</head>
+
+<body>
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+    
+    
+        <a href="index.html" class="logo"><img src="images/logoname.png" alt="Logo"></a>
+    
+        <nav class="navbar">
+            <a href="">Tarifler</a>
+            <a href="">Menüler</a>
+            <a href="">Günün Menüsü</a>
+            <a href="dolabım.html">Dolabım</a>
+            <a href="yoresel.html">Yöresel</a>
+    
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+    
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="Buradan ara..">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    
+    </header>
+    
+    <!-- header section ends -->
+    
+    <!-- login form container -->
+    
+    <div class="login-form-container">
+    
+        <button class="close-button" id="form-close">&times;</button>
+    
+        <form action="">
+            <h3>Giriş Yap</h3>
+            <input type="email" class="box" placeholder="E-mail adresinizi giriniz.">
+            <input type="password" class="box" placeholder="Şifrenizi giriniz.">
+            <input type="submit" value="Giriş Yap" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Bilgilerimi hatırla</label>
+            <p>Şifrenizi mi unuttunuz? <a href="#">Buraya tıklayınız</a></p>
+            <p>Henüz üye değil misiniz? <a href="#" id="sign-up">Şimdi üye ol</a></p>
+        </form>
+    
+    
+    </div>
+    
+    <!-- sign up form container -->
+    
+    <div class="sign-up-form-container">
+    
+        <button class="close-button" id="sign-up-form-close">&times;</button>
+    
+        <form action="">
+            <h3>Üye Ol</h3> 
+            <input type="text" class="box" placeholder="İsminizi giriniz.">
+            <input type="text"  class="box" placeholder="Soyadınızı giriniz.">
+            <input type="email" class="box" placeholder="E-mail adresinizi giriniz.">
+            <input type="password" class="box" placeholder="Şifrenizi giriniz.">
+            <input type="password" class="box" placeholder="Şifrenizi yeniden giriniz.">
+            <input type="submit" value="Üye Ol" class="btn">
+            <p>Zaten üye misiniz? <a href="#" id="login-return">Şimdi giriş yap</a></p>
+        </form>
+    
+    </div>
+    <center>
+    <h1 style="margin-top: 150px;" class="heading">
+        <span>y</span>
+        <span>ö</span>
+        <span>r</span>
+        <span>e</span>
+        <span>s</span>
+        <span>e</span>
+        <span>l</span>
+        <br><br>
+        <span>t</span> 
+        <span>a</span>
+        <span>r</span>
+        <span lang="tr">i</span>
+        <span>f</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+    </h1>
+    </center>
+         <div class="container">
+         <div class="kutu">Karadeniz Yemekleri</div>
+         <div class="kutu">Ege Yemekleri</div>
+         <div class="kutu">Akdeniz Yemekleri</div>
+        </div>
+    
+        <div class="container">
+            <div class="altDiv">Doğu Yemekleri</div>
+            <div class="altDiv">İç Anadolu Yemekleri</div>
+        </div>
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>Hakkımızda</h3>
+                <p>Pıtırık Tarifler, lezzetli yemekleri keşfetmeyi ve mutfak deneyimini herkes için keyifli hale getirmeyi amaçlayan bir platformdur.</p>
+            </div>
+            <div class="box">
+                <h3>İletişim Bilgileri</h3>
+                <p>E-mail adresi: pitiriktarifler@hotmail.com</p>
+            </div>
+            <div class="box">
+                <h3>Bizi Takip Edin</h3>
+                <a href="#">facebook</a>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+                <a href="#">youtube</a>
+            </div>
+            <div class="box">
+                <h3>Sık Sorulan Sorular(SSS)</h3>
+                <a href="#">Buraya tıklayınız</a>
+            </div>
+    
+        </div>
+        <footer class="credit"> created by <span> Celal Deniz Sinop, Emin Yalın, 
+            Nisa Vapurlu, Olcay Tutan, Sena Şimşek</span>| all rights reserved!</footer>
+    </section>
+    <!-- footer section ends -->
+    <script src="js/script.js"></script>
+</body>
+</html>
